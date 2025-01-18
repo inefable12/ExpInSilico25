@@ -54,7 +54,7 @@ def Home():
     
 #############################Pagina 2##############################    
 def page2():
-    st.markdown("Sesión 1")
+    st.header("Sesión 1", divider='rainbow')
     st.sidebar.markdown("Proyectos Propuestos")
     
     st.info('Generalidades')
@@ -122,9 +122,9 @@ def page9():
 
 page_names_to_funcs = {
   "Contenido del Curso": Home,
-  "Sesión 1. Tablas en Excel": page2,
-  "Sesión 2: Funciones Condicionales": page3,
-  "Sesión 3: Base de Datos": page4,
+  "Sesión 1": page2,
+  "Sesión 2": page3,
+  "Sesión 3": page4,
   "Sesión 4": page5,
   "Sesión 5": page6,
   "Sesión 6": page7,
